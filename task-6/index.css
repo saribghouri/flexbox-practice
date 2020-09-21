@@ -48,17 +48,17 @@ body {
   #box-4{
     background-color:papayawhip;
     height:50vh;
-    width:150px;
+    width:170px;
     border: groove;
     margin-right: 5px;
-    margin-top: 5px;
+    /* margin-top: 5px; */
     margin-left: 5px;
     margin-bottom: 5px;
   }
   #box-5{
     background-color:papayawhip;
     height:50vh;
-    width:150px;
+    width:170px;
     border: groove;
     margin-right: 5px;
     /* align-self:baseline; */
@@ -70,11 +70,11 @@ body {
   #box-6{
     background-color:papayawhip;
     height:98.7%;
-    width:150%;
+    width:170%;
     border: groove;
     display: flex;
-    margin-right: 10px;
-    /* margin-left:0px; */
+    margin-right: 5px;
+    /* margin-left:px; */
     margin-top: 5px;
     margin-bottom: 10px;
   }
@@ -86,6 +86,6 @@ body {
     /* height: 100vh; */
     /* height: 800px; */
     justify-content: space-between;
-    margin-right: 50px;
+    margin-right: 1px;
     /* margin-bottom: 5px; */
   }
