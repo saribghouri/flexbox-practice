@@ -1,0 +1,234 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+  /* display:flex; */
+}
+#header {
+  background-color: cornsilk;
+  display: flex;
+  padding: 20px 0px 20px 30px;
+  text-align: center;
+}
+#nav-bar1 {
+  background-color: cornsilk;
+  display: flex;
+  margin-right: 15px;
+}
+
+#nav-bar2 {
+  background-color: cornsilk;
+  display: flex;
+  margin-right: 15px;
+}
+#nav-bar3 {
+  background-color: cornsilk;
+  display: flex;
+  margin-right: 15px;
+}
+#nav-bar4 {
+  background-color: cornsilk;
+  display: flex;
+  margin-right: 15px;
+}
+#container {
+  display: flex;
+  flex-direction: column;
+}
+.row {
+  /* border: 1px solid green; */
+  display: flex;
+}
+.row-1 > div {
+  /* border: 1px solid blue; */
+  height: 300px;
+}
+.row-1-child-1 {
+  flex: 1;
+  background-size: center;
+  background: url(http://24.media.tumblr.com/d6b9403c704c3e5aa1725c106e8a9430/tumblr_mvyxd9PUpZ1st5lhmo1_1280.jpg)
+    no-repeat center;
+}
+
+.row-1-child-2 {
+  flex: 2;
+  background-color: #313131;
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.row-2 > div {
+  /* border: 1px solid blue; */
+  height: 300px;
+  flex: 1000;
+
+  /* background: url(http://24.media.tumblr.com/ac840897b5f73fa6bc43f73996f02572/tumblr_mrraat0H431st5lhmo1_1280.jpg)
+    no-repeat center; */
+}
+
+#photo1 {
+  background-color: grey;
+  /* border: groove; */
+  /* flex: 1; */
+  /* margin: 5px 5px 5px 5px; */
+  /* display: flex; */
+  /* border: groove;
+  width: 20%;
+  height: 20%; */
+}
+
+.row-2-child-1 {
+  flex: 1;
+
+  background: url(https://c2.staticflickr.com/6/5515/9199788659_818383d0b8_k.jpg)
+    no-repeat center;
+}
+
+.row-2-child-2 {
+  flex: 2;
+  background: url(http://24.media.tumblr.com/23e3f4bb271b8bdc415275fb7061f204/tumblr_mve3rvxwaP1st5lhmo1_1280.jpg)
+    no-repeat center;
+}
+.row-2-child-3 {
+  flex: 2;
+  background: url(http://24.media.tumblr.com/ac840897b5f73fa6bc43f73996f02572/tumblr_mrraat0H431st5lhmo1_1280.jpg)
+    no-repeat center;
+}
+
+.row {
+  /* border: 1px solid green; */
+  display: flex;
+}
+.row-3 > div {
+  /* border: 1px solid blue; */
+  height: 300px;
+}
+.row-3-child-1 {
+  flex: 1;
+  background: url(http://24.media.tumblr.com/e100564a3e73c9456acddb9f62f96c79/tumblr_mufs8mix841st5lhmo1_1280.jpg)
+    no-repeat center;
+
+  background-size: center;
+}
+
+.row-3-child-2 {
+  flex: 2;
+
+  background: url(https://c2.staticflickr.com/4/3676/12024271573_d266422362_h.jpg)
+    no-repeat center;
+}
+
+.row-row-4 {
+  /* border: 1px solid black; */
+  display: flex;
+  height: 300px;
+}
+.row-4-child-1 {
+  /* border: 1px solid blue; */
+  background: url(http://25.media.tumblr.com/95c842c76d60b7bc982d92c76216d037/tumblr_mx3tnm96k81st5lhmo1_1280.jpg)
+    no-repeat center;
+
+  flex: 2;
+}
+.row-4-child-2 {
+  /* border: 1px solid blue; */
+  background: url(http://25.media.tumblr.com/88b812f5f9c3d7b83560fd635435d538/tumblr_mx3tlblmY21st5lhmo1_1280.jpg)
+    no-repeat center;
+
+  flex: 1;
+}
+
+.container2 {
+  /* background-color: gray;
+  display: flex;
+  flex-direction: row;
+  flex: 1;
+  justify-content: space-between; */
+  /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+}
+
+.pure-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+}
+
+h1 {
+  text-align: center;
+  margin-right: 100px;
+}
+
+.pure-button {
+  background-color: rgb(61, 228, 55);
+  margin-left: 10px;
+  border: gold;
+  height: 40px;
+  width: 100px;
+  border-radius: 10%;
+}
+.container3 {
+  /* background-color: gray; */
+  display: flex;
+  flex-direction: column;
+  height: 200px;
+  border-top: gray;
+}
+
+input {
+  height: 40px;
+  margin-right: 10px;
+  height: 40px;
+  width: 15%;
+  border-style: rgb(182, 176, 176);
+  border-radius: 5px;
+}
+
+.container4 {
+  background-color: black;
+  display: flex;
+  height: 80px;
+  justify-content: center;
+}
+
+h5 {
+  text-align: center;
+  text-decoration: gray;
+  color: gray;
+  margin-top: 10px;
+}
+
+h2 {
+  text-decoration: white;
+  color: white;
+  margin-left: 10px;
+}
+
+h4 {
+  text-decoration: orange;
+  color: orange;
+  margin-left: 10px;
+  font-size: medium;
+}
+
+h3 {
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+p {
+  font-family: sans-serif;
+  color: gray;
+  margin-left: 10px;
+  margin-top: 5px;
+}
